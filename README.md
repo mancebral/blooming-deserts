@@ -19,3 +19,10 @@ Open `index.html` in a browser. Google Fonts are loaded from the web; the site i
 
 ## Before publishing
 Please review the public-facing team details, institutional naming, and research status. The page describes proposed research and expected contributions; it does not claim that proposed outcomes have already been achieved. The safeguarding section is a public overview, not an operational protocol. Check image permissions and institutional approval before public release.
+
+
+### Recent visual updates
+- The hero section now uses the supplied `assets/frontpage.png` artwork.
+- The three Research Vision icons link to their corresponding Flaticon pages. They load from Flaticon's CDN, so an internet connection is required for these icons. Check the relevant Flaticon attribution/licensing terms before public use.
+
+- The Research Methodology section now uses the supplied transparent three-layer analytical architecture and its explanatory text.
