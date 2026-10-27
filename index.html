@@ -78,14 +78,63 @@
     </section>
 
     <section class="section-wrap section" id="experience">
-      <div class="section-heading"><p class="eyebrow">03 / Immersive experience</p><h2>A narrative in four movements</h2><p class="section-intro">The planned experience follows a cumulative sequence: embodied exploration gives way to interpretation, dialogue, and creative reconfiguration. The design will be adapted across two immersive conditions.</p></div>
-      <div class="scene-grid">
-        <article class="scene"><span class="scene-index">01</span><h3>Embodied engagement</h3><p>Participants move through the desert environment. The landscape responds to movement and physiological indicators, making the relationship between body and setting perceptible.</p></article>
-        <article class="scene"><span class="scene-index">02</span><h3>Conceptual exploration</h3><p>Participants select words to articulate their understanding of the experience. Language becomes a bridge between embodied sensation and reflective interpretation.</p></article>
-        <article class="scene"><span class="scene-index">03</span><h3>Dialogic reflection</h3><p>A literary dialogue mediated by a locally curated generative AI system draws on magical realism, participant-selected words, and carefully designed interaction guidelines.</p></article>
-        <article class="scene"><span class="scene-index">04</span><h3>Creative reconfiguration</h3><p>A face-like presence emerges within the landscape. Its expression and the surrounding environment change, inviting reflection on identity, affect, and relations between human and nature.</p></article>
+      <div class="section-heading">
+        <p class="eyebrow">03 / Immersive experience</p>
+        <h2>Experimental Sequence of the Immersive Experience</h2>
+        <p class="section-intro">The proposed design builds on immersive methodologies validated through pilot neurohumanities studies. Structured as a cumulative literary experience, four interconnected scenes progressively transform embodied perception into interpretation and narrative articulation, while participant actions continuously reshape the immersive environment. The experience concludes with a creative writing exercise, in which participants produce a short post-session narrative grounded in magical realism, supporting reflective integration. The same narrative structure will be adapted to a VR environment, preserving its core literary and methodological principles.</p>
       </div>
-      <figure class="image-figure wide-figure"><img src="assets/immersive-sequence.jpg" alt="Research diagram illustrating the planned sequence of the immersive experience"><figcaption>Proposed experimental sequence, from preparation and embodied engagement to dialogue and narrative integration.</figcaption></figure>
+
+      <article class="sequence-bookend sequence-preparation">
+        <div class="sequence-bookend-image"><img src="assets/sequence-00-preparation.png" alt="Three-panel illustration of informed consent, baseline EEG and rest, and reading a magical realism text before the immersive experience"></div>
+        <div class="sequence-bookend-copy">
+          <p class="eyebrow">00 / Before the experience</p>
+          <h3>Initial Preparation</h3>
+          <p>Participants carefully review the informed consent form and are invited to ask any questions. The protocol has already been explained, including their right to stop or withdraw at any time. Baseline measurements are then collected, followed by a short fragment of magical realism to provide inspiration and context for the experience ahead.</p>
+        </div>
+      </article>
+
+      <div class="sequence-carousel" aria-roledescription="carousel" aria-label="Four scenes of the immersive experience">
+        <div class="sequence-carousel-heading">
+          <div><p class="eyebrow">The immersive journey</p><h3>Four interconnected scenes</h3></div>
+          <div class="carousel-controls">
+            <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous scene">←</button>
+            <span class="carousel-position" aria-live="polite"><span data-carousel-current>1</span> <span class="muted">/ 4</span></span>
+            <button class="carousel-button" type="button" data-carousel-next aria-label="Next scene">→</button>
+          </div>
+        </div>
+        <div class="sequence-slide" data-sequence-slide="0">
+          <div class="sequence-slide-image"><img src="assets/sequence-01-embodied.png" alt="Participant moving through a projected desert environment while EEG, wrist biometrics, and movement are monitored"></div>
+          <div class="sequence-slide-copy"><p class="eyebrow">01 / Embodiment & movement</p><h3>Embodied Engagement</h3><p>Participants attempt to move physically through the desert, gradually increasing movement without increasing stress levels as they work toward reaching an oasis. Progress, biomarkers, and brain synchrony are visualised as part of the responsive environment.</p><p class="sequence-measure"><strong>Analytical focus</strong><br>Embodied movement · Physiological monitoring · Brain synchrony</p></div>
+        </div>
+        <div class="sequence-slide" data-sequence-slide="1" hidden>
+          <div class="sequence-slide-image"><img src="assets/sequence-02-conceptual.png" alt="Participant facing a projected desert with selected and suggested words representing their interpretation of the experience"></div>
+          <div class="sequence-slide-copy"><p class="eyebrow">02 / Words & meaning</p><h3>Conceptual Exploration</h3><p>Participants express their understanding of the preceding scene—the experience of being psychologically in the desert—through selected words. These verbal associations connect embodied sensation with semantic interpretation.</p><p class="sequence-measure"><strong>Analytical focus</strong><br>Word processing · Event-related potential (ERP) N400</p></div>
+        </div>
+        <div class="sequence-slide" data-sequence-slide="2" hidden>
+          <div class="sequence-slide-image"><img src="assets/sequence-03-dialogic.png" alt="Participant engaging in a dialogue with an AI agent projected into the desert environment"></div>
+          <div class="sequence-slide-copy"><p class="eyebrow">03 / Dialogue & reflection</p><h3>Dialogic Reflection</h3><p>Drawing on the participant’s selected words, an LLM engages in a dialogue using retrieval-augmented generation (RAG) grounded in magical realism. The dialogue adapts to real-time emotional patterns inferred from EEG and biomarkers, while audiovisual elements adjust the intensity of the scene.</p><p class="sequence-measure"><strong>Analytical focus</strong><br>Literary dialogue · RAG-based inference · Adaptive audiovisual environment</p></div>
+        </div>
+        <div class="sequence-slide" data-sequence-slide="3" hidden>
+          <div class="sequence-slide-image"><img src="assets/sequence-04-reconfiguration.png" alt="A face emerges from the desert landscape, surrounded by a changing environment of storms, flowers, and blooms"></div>
+          <div class="sequence-slide-copy"><p class="eyebrow">04 / Identity & transformation</p><h3>Creative Reconfiguration</h3><p>Participants encounter a face emerging from the desert that somehow resembles themselves. Their expressions modify the face, while emotional and physiological intensity transforms the landscape through phenomena such as storms and blooms.</p><p class="sequence-measure"><strong>Analytical focus</strong><br>Face recognition · Event-related potential (ERP) N170 · Affective landscape transformation</p></div>
+        </div>
+        <div class="carousel-dots" role="group" aria-label="Choose a scene">
+          <button type="button" class="carousel-dot is-active" data-carousel-dot="0" aria-label="Show scene 1: Embodied Engagement" aria-pressed="true"></button>
+          <button type="button" class="carousel-dot" data-carousel-dot="1" aria-label="Show scene 2: Conceptual Exploration" aria-pressed="false"></button>
+          <button type="button" class="carousel-dot" data-carousel-dot="2" aria-label="Show scene 3: Dialogic Reflection" aria-pressed="false"></button>
+          <button type="button" class="carousel-dot" data-carousel-dot="3" aria-label="Show scene 4: Creative Reconfiguration" aria-pressed="false"></button>
+        </div>
+      </div>
+
+      <article class="sequence-bookend sequence-integration">
+        <div class="sequence-bookend-image"><img src="assets/sequence-final-integration.png" alt="Two-panel illustration of post-session writing, equipment removal, and research notes being archived"></div>
+        <div class="sequence-bookend-copy">
+          <p class="eyebrow">Final / After the experience</p>
+          <h3>Narrative Integration</h3>
+          <p>Participants produce a self-reported narrative over 10–15 minutes, capturing their perceived, affective, and imagined experience. These narratives support reflective integration and are incorporated into a personalised retrieval layer that can inform subsequent LLM and generative AI interactions for each participant.</p>
+        </div>
+      </article>
+
       <div class="modality-grid">
         <article class="modality modality-xr"><p class="eyebrow">Condition A</p><h3>Extended reality (xR)</h3><p>A 180° projection-based environment preserves a stronger continuity between the participant’s physical surroundings and the mediated landscape.</p><ul><li>Shared physical room</li><li>Panoramic projection</li><li>Embodied spatial continuity</li></ul></article>
         <article class="modality modality-vr"><p class="eyebrow">Condition B</p><h3>Virtual reality (VR)</h3><p>A fully immersive environment enables a different degree of perceptual enclosure and sensory isolation for comparison with the xR condition.</p><ul><li>Head-mounted display</li><li>Enclosed visual environment</li><li>Comparative study of immersion</li></ul></article>
