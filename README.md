@@ -28,3 +28,5 @@ Please review the public-facing team details, institutional naming, and research
 - The Research Methodology section now uses the supplied transparent three-layer analytical architecture and its explanatory text.
 \n- The Immersive Experience section now includes static preparation and narrative-integration bookends around an accessible four-scene carousel.\n
 - The experimental sequence uses a nine-slide carousel: three preparation images, four immersive scenes, and two narrative-integration images. The carousel is integrated into a white full-width section.
+
+- The xR/VR comparison uses a responsive two-slide carousel with separate condition illustrations and a shared, responsive equipment legend.

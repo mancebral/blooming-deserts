@@ -136,11 +136,41 @@
           <button type="button" class="carousel-dot" data-carousel-dot="8" aria-label="Show narrative integration image 2" aria-pressed="false"></button>
         </div>
       </div>
-      <div class="modality-grid">
-        <article class="modality modality-xr"><p class="eyebrow">Condition A</p><h3>Extended reality (xR)</h3><p>A 180° projection-based environment preserves a stronger continuity between the participant’s physical surroundings and the mediated landscape.</p><ul><li>Shared physical room</li><li>Panoramic projection</li><li>Embodied spatial continuity</li></ul></article>
-        <article class="modality modality-vr"><p class="eyebrow">Condition B</p><h3>Virtual reality (VR)</h3><p>A fully immersive environment enables a different degree of perceptual enclosure and sensory isolation for comparison with the xR condition.</p><ul><li>Head-mounted display</li><li>Enclosed visual environment</li><li>Comparative study of immersion</li></ul></article>
+      <div class="condition-intro"><p>The <strong>xR</strong> condition preserves forms of <strong>environmental continuity</strong> and <strong>embodied situatedness</strong>, while the <strong>VR</strong> condition <strong>enables deeper perceptual enclosure</strong> and <strong>sensory isolation</strong>, supporting comparative analysis of immersive subjectivation processes.</p></div>
+      <div class="condition-carousel sequence-carousel sequence-carousel-light" aria-roledescription="carousel" aria-label="Experimental setup conditions">
+        <div class="sequence-carousel-heading condition-carousel-heading">
+          <div><p class="eyebrow">Experimental setup</p><h3>Two immersive conditions</h3></div>
+          <div class="carousel-controls"><button class="carousel-button" type="button" data-carousel-prev aria-label="Previous condition">←</button><span class="carousel-position" aria-live="polite"><span data-carousel-current>1</span> <span class="muted">/ 2</span></span><button class="carousel-button" type="button" data-carousel-next aria-label="Next condition">→</button></div>
+        </div>
+        <div class="condition-slide sequence-slide sequence-slide-light" data-sequence-slide="0">
+          <div class="sequence-slide-image"><img src="assets/condition-A.png" alt="xR condition: participant in a room with a 180-degree panoramic desert projection and monitoring equipment"></div>
+          <div class="sequence-slide-copy"><p class="eyebrow">Condition A</p><h3>Extended reality (xR)</h3><p>The participant remains situated in the physical room while a panoramic desert landscape is projected across a 180° screen. The setup combines embodied movement with real-time physiological and environmental monitoring.</p><p class="sequence-measure"><strong>Key distinction</strong><br>Environmental continuity and embodied situatedness.</p></div>
+        </div>
+        <div class="condition-slide sequence-slide sequence-slide-light" data-sequence-slide="1" hidden>
+          <div class="sequence-slide-image"><img src="assets/condition-B.png" alt="VR condition: participant wearing a virtual reality headset in front of a desert scene with research monitoring equipment"></div>
+          <div class="sequence-slide-copy"><p class="eyebrow">Condition B</p><h3>Virtual reality (VR)</h3><p>The participant experiences the desert through a head-mounted display, creating a more enclosed perceptual environment. A reference projection remains available for research monitoring.</p><p class="sequence-measure"><strong>Key distinction</strong><br>Deeper perceptual enclosure and sensory isolation.</p></div>
+        </div>
+        <div class="carousel-dots" role="group" aria-label="Choose an experimental condition">
+          <button type="button" class="carousel-dot is-active" data-carousel-dot="0" aria-label="Show xR condition" aria-pressed="true"></button>
+          <button type="button" class="carousel-dot" data-carousel-dot="1" aria-label="Show VR condition" aria-pressed="false"></button>
+        </div>
       </div>
-      <figure class="image-figure"><img src="assets/xr-vr-conditions.jpg" alt="Visual comparison of the proposed xR and VR experimental conditions"><figcaption>Conceptual comparison of the two experimental modalities.</figcaption></figure>
+      <div class="equipment-legend">
+        <div class="equipment-legend-heading"><p class="eyebrow">Shared setup legend</p><h3>Multimodal equipment &amp; data monitoring</h3></div>
+        <ol class="equipment-list">
+          <li><strong>32-channel EEG</strong> sending real-time data</li>
+          <li><strong>Biometric wristband</strong> sending real-time data</li>
+          <li><strong>Adaptive LEDs</strong> changing colours and intensity according to affective indicators</li>
+          <li><strong>Soundbars</strong> controlled in real time by Pure Data</li>
+          <li><strong>Webcam</strong> capturing body movement and, in the xR condition, facial expressions</li>
+          <li><strong>Infrared parabolic heater</strong> receiving data</li>
+          <li><strong>xR projection</strong> in a 180° environment controlled in real time by TouchDesigner</li>
+          <li><strong>VR–EEG headset</strong> integrating sensors and a wireless unit</li>
+          <li><strong>VR reference projection</strong> for research monitoring</li>
+          <li><strong>Multimodal data monitoring:</strong> EEG, SCR, HRV</li>
+        </ol>
+      </div>
+
     </section>
 
     <section class="dark-section section" id="methodology">

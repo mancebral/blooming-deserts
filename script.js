@@ -13,9 +13,8 @@ if (toggle && nav) {
   }));
 }
 
-// Accessible scene carousel for the experimental sequence.
-const sequenceCarousel = document.querySelector('.sequence-carousel');
-if (sequenceCarousel) {
+// Accessible carousels. Each carousel manages its own slides, dots, and controls.
+document.querySelectorAll('.sequence-carousel').forEach(sequenceCarousel => {
   const slides = [...sequenceCarousel.querySelectorAll('[data-sequence-slide]')];
   const dots = [...sequenceCarousel.querySelectorAll('[data-carousel-dot]')];
   const current = sequenceCarousel.querySelector('[data-carousel-current]');
@@ -41,4 +40,4 @@ if (sequenceCarousel) {
   next?.addEventListener('click', () => showSequenceSlide(activeIndex + 1));
   dots.forEach((dot, i) => dot.addEventListener('click', () => showSequenceSlide(i)));
   showSequenceSlide(0);
-}
+});
